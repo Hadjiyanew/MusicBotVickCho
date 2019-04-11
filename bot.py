@@ -1,3 +1,5 @@
+
+import requests
 import os
 import sys
 import time
@@ -21,6 +23,8 @@ from functools import wraps
 from textwrap import dedent
 from datetime import timedelta
 from collections import defaultdict
+from discord.ext import commands
+from discord.ext.commands import bot
 
 from discord.enums import ChannelType
 
